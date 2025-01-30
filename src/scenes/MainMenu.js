@@ -1,4 +1,5 @@
 import { Scene } from 'phaser';
+import apiBici from '../components/apiBici';
 
 export class MainMenu extends Scene
 {
@@ -24,5 +25,6 @@ export class MainMenu extends Scene
             this.scene.start('Game');
 
         });
+        apiBici();
     }
 }
