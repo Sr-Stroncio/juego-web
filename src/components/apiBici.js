@@ -1,4 +1,3 @@
-let url = "https://a24-dpl.onrender.com/api/bicicletas";
 let contenidos = [];
 
 export default function apiBici(url){

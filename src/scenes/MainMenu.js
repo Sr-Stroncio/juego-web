@@ -1,5 +1,6 @@
 import { Scene } from 'phaser';
 import apiBici from '../components/apiBici';
+let url = "https://a24-dpl.onrender.com/api/bicicletas";
 
 export class MainMenu extends Scene
 {
@@ -25,6 +26,6 @@ export class MainMenu extends Scene
             this.scene.start('Game');
 
         });
-        apiBici();
+        apiBici(url);
     }
 }
